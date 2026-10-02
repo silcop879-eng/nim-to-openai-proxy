@@ -102,11 +102,11 @@ const MODEL_MAPPING = {
 };
 
 // Used when an unrecognized alias is requested. Must point at a live model.
-const DEFAULT_MODEL = 'google/diffusiongemma-26b-a4b-it';
+const DEFAULT_MODEL = 'deepseek-ai/deepseek-v4.1-flash';
 
 // Ordered by observed reliability/speed — an early failing model delays every fallback behind it.
 const FALLBACK_MODELS = [
-  'google/diffusiongemma-26b-a4b-it',
+  'deepseek-ai/deepseek-v4.1-flash',
   'google/gemma-4-31b-it',
   'mistralai/mistral-nemotron',
   'nvidia/nemotron-3-super-120b-a12b'
