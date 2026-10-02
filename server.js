@@ -88,7 +88,8 @@ const MODEL_MAPPING = {
   'google-lighter': 'poolside/laguna-xs-2.1',
   'glm-5.3': 'z-ai/glm-5.3',
   'glm-flash': 'z-ai/glm-5.3-flash',
-
+  'deepseek-uncensored': 'nicoboss/DeepSeek-R1-Distill-Qwen-32B-Uncensored',
+  
   // Vision-Modelle — nur Modelle, die erfolgreich auf Chat-Completions antworten.
   // Getestet am: 2026-09-17 — meta/llama-3.2-11b-vision-instruct: HTTP 200 ✓
   // meta/llama-3.2-90b-vision-instruct: Timeout (HTTP 000) — nicht hinzugefügt.
