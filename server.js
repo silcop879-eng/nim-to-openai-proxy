@@ -70,7 +70,7 @@ const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'nvidia/nemotron-3-super-120b-a12b',
   'gpt-4': 'nvidia/nemotron-3-ultra-550b-a55b',
   'gpt-3.5': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning',
-  'gpt-4-turbo': 'moonshotai/kimi-k3',
+  'gpt-4-turbo': 'stepfun-ai/step-5-preview',
   'claude-3-opus': 'google/diffusiongemma-26b-a4b-it',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
   'gemini-pro': 'nvidia/llama-3.1-nemotron-70b-instruct', 
