@@ -160,7 +160,7 @@ const REASONING_EFFORT_ENUMS = {
   'nvidia/nemotron-3-super-120b-a12b': ['low'],
   'nvidia/nemotron-3-ultra-550b-a55b': ['low'],
   'minimaxai/minimax-m3': ['adaptive'],
-  'moonshotai/kimi-k3': ['low', 'high', 'max'],
+  'stepfun-ai/step-5-preview': ['low', 'high', 'max'],
   'meta/muse-glimmer-30b': ['none', 'minimal', 'low', 'medium', 'high', 'max']
 };
 
@@ -263,7 +263,7 @@ function getReasoningPayload(model, enableThinking, clientReasoningEffort, hasTo
       return { chat_template_kwargs: { thinking_mode: thinkingMode } };
     }
 
-    case 'moonshotai/kimi-k3': {
+    case 'stepfun-ai/step-5-preview': {
       // No off-switch — omitting the field falls back to Kimi's own 'max'.
       if (effort) return { reasoning_effort: effort };
       return { reasoning_effort: enableThinking ? 'high' : 'low' };
