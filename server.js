@@ -89,6 +89,8 @@ const MODEL_MAPPING = {
   'glm-5.3': 'z-ai/glm-5.3',
   'glm-flash': 'z-ai/glm-5-3-flash',
   'm3.1': 'minimaxai/minimax-m3.1-flash',
+  'mistral': 'mistralai/mistral-large-4-1t-a52b',
+  
 
   // Vision-Modelle — nur Modelle, die erfolgreich auf Chat-Completions antworten.
   // Getestet am: 2026-09-17 — meta/llama-3.2-11b-vision-instruct: HTTP 200 ✓
