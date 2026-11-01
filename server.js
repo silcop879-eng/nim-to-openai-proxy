@@ -87,7 +87,7 @@ const MODEL_MAPPING = {
   'google-lightest': 'meta/muse-glimmer-30b',
   'google-lighter': 'poolside/laguna-xs-2.1',
   'glm-5.3': 'z-ai/glm-5.3',
-  'glm-flash': 'z-ai/glm-5-3-flash',
+  'glm-flash': 'z-ai/glm-5.3-flash',
   'm3.1': 'minimaxai/minimax-m3.1-flash',
   'mistral': 'mistralai/mistral-large-4-1t-a52b',
   'Nvidiachat': 'nvidia/nemotron-3.5-bolt-e4b',
